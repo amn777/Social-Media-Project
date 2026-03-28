@@ -2,13 +2,13 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Header from './components/header.jsx';
+import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Sidebar from './components/Sidebar.jsx';
 import Createpost from './components/Createpost.jsx';
 import Postlist from './components/Postlist.jsx';
 import { useState } from 'react';
-import PostListProvider from "./store/post-list-store";
+import PostListProvider from "./store/post-list-store.jsx";
 
 
 function App() {
